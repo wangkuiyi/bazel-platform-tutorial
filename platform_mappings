@@ -1,0 +1,17 @@
+platforms:
+  //:ios
+    --cpu=ios_arm64
+    --apple_platform_type=ios
+
+  //:macos
+    --cpu=darwin
+    --apple_platform_type=macos
+
+flags:
+  --cpu=ios_arm64
+  --apple_platform_type=ios
+    //:ios
+
+  --cpu=darwin
+  --apple_platform_type=macos
+    //:macos
